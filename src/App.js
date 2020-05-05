@@ -1,6 +1,5 @@
-import React from 'react';
-import SquareCollab from "./componentes/SquareCollab";
+import React from "react";
 
-const App = () => <SquareCollab />;
+const App = () => <h1>Hello</h1>;
 
 export default App;
