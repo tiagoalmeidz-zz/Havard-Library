@@ -1,5 +1,12 @@
 import React from "react";
 
-const App = () => <h1>Hello</h1>;
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Routes from "./routes";
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  );
+}
