@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ecc9b2;
+  background: #33bfcb;
   padding: 16px 128px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .header-cart:hover {
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .header-cart div {
@@ -46,7 +46,7 @@
 
 .header-cart div > strong {
   display: block;
-  color: #fff;
+  color: #b6edf2;
 }
 
 .header-cart div span {
